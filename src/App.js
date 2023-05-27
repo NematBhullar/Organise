@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
@@ -43,16 +44,18 @@ function App() {
 
   return (
     <div className="main-content">
-      <h1>Organise</h1>
-      <Form addTodo={addTodo} />
-      
-      {todos.map((todo, index) => (
-        todo.isEditing ? (
-          <EditForm editTodo={editTask} task={todo} />
-        ) : (
-          <Task task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} editTodo={editTodo} />
-        )
-      ))}
+      <div className="wrapper">
+        <h1>Organise</h1>
+        <Form addTodo={addTodo} />
+        
+        {todos.map((todo, index) => (
+          todo.isEditing ? (
+            <EditForm editTodo={editTask} task={todo} />
+          ) : (
+            <Task task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} editTodo={editTodo} />
+          )
+        ))}
+      </div>
     </div>
   )
 }
