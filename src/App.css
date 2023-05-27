@@ -14,7 +14,7 @@ h1 {
   font-size: 80px;
   padding: 1rem 0;
   margin: 0;
-  color: #B12179;
+  color: #D55366;
 }
 
 .main-content {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .add-task-input {
-  border: 1px solid #B12179;
+  border: 1px solid #D55366;
 }
 
 .save-task-input {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .add-task-btn {
-  background-color: #B12179;
+  background-color: #D55366;
 }
 
 .save-task-btn {
@@ -67,7 +67,7 @@ h1 {
   width: 400px;
   justify-content: space-between;
   align-items: center;
-  background: #B12179;
+  background: #D55366;
   color: #fff;
   margin: 1rem auto;
   padding: 0.5rem 1rem;
