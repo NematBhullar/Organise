@@ -30,9 +30,10 @@ h1 {
 
 .add-task-input, .save-task-input {
   width: 350px;
-  height: 50px;
+  height: 45px;
   border-radius: 10px;
   padding: 0 0.5rem;
+  margin: 0.5rem auto;
 }
 
 .add-task-input {
@@ -44,14 +45,14 @@ h1 {
 }
 
 .add-task-btn, .save-task-btn {
-  height: 55px;
+  height: 47px;
   width: 55px;
   color: white;
   font-weight: bold;
   border-radius: 10px;
   border: none;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0.5rem auto 0 0.5rem;
 }
 
 .add-task-btn {
