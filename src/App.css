@@ -29,7 +29,7 @@ h1 {
 }
 
 .add-task-input, .save-task-input {
-  width: 300px;
+  width: 350px;
   height: 50px;
   border-radius: 10px;
   padding: 0 0.5rem;
@@ -45,13 +45,13 @@ h1 {
 
 .add-task-btn, .save-task-btn {
   height: 55px;
-  width: 100px;
+  width: 55px;
   color: white;
   font-weight: bold;
   border-radius: 10px;
   border: none;
-  padding: 0 0.5rem;
-  margin: 0.5rem auto;
+  padding: 0;
+  margin: 0 0 0 10px;
 }
 
 .add-task-btn {
@@ -101,6 +101,10 @@ h1 {
     padding: 1rem;
   }
 
+  .add-task-input, .save-task-input {
+    width: 250px;
+  }
+
   .task-input {
     width: 200px;
   }
@@ -120,6 +124,10 @@ h1 {
 
   .wrapper {
     padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .add-task-input, .save-task-input {
+    width: 200px;
   }
 
   .task-input {
