@@ -1,4 +1,5 @@
 # Organise
+<img width="1400" alt="Screenshot 2023-08-25 at 5 17 13 pm" src="https://github.com/NematBhullar/Organise/assets/91060343/5d2c5edd-9e31-4543-be8f-933a9969ebfa">
 
 1. About
 2. Getting Started
